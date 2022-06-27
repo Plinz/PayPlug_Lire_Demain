@@ -128,8 +128,8 @@ def runScript(values):
         path = os.path.realpath(csvOutput)
         os.startfile(path)
 
-windowName = 'PayPlug Transformer - AUZOU EDITIONS'
-layout = [[sg.Text(text='AUZOU EDITIONS', font='_ 20 bold', justification='c', expand_x=True)],
+windowName = 'PayPlug Transformer - LIRE DEMAIN'
+layout = [[sg.Text(text='LIRE DEMAIN', font='_ 20 bold', justification='c', expand_x=True)],
           [sg.Text('Fichier CSV PayPlug')],
           [sg.Input(key='input'), sg.FileBrowse("Parcourir", target='input', file_types=(("Fichiers CSV", "*.csv"),))],
           [sg.Text('Fichier CSV BDD Factures')],
